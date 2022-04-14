@@ -1,3 +1,4 @@
+// 再帰版
 function divisor(number){
   let returnDivisor = "";
   let divisorCount = number;
@@ -17,3 +18,18 @@ function divisorHelper (number, count, returnString){
       return divisorHelper(number, count - 1, returnString);
   };
 };
+
+// for文版
+// function divisor(number){
+//   let divisorString = "";
+//   let count = number;
+//   for (let i = 0; i < number; i++){
+//       if(number % count === 0){
+//           let addDivisor = number / count;
+//           divisorString = divisorString.concat(`${addDivisor}-`);
+//       };
+//       count -= 1;
+//     };
+//     divisorString = divisorString.substr(0, divisorString.length - 1);
+//     return divisorString;
+//   }
