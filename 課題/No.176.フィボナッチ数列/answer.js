@@ -6,3 +6,15 @@ function fibonacciHelper(fn1, fn2, count){
 function fibonacci(n){
   return fibonacciHelper(0, 1, n);
 }
+
+// for文版
+// function fibonacci(n){
+//   let fn1 = 0;
+//   let fn2 = 1;
+//   for(let i = 0; i < n; i++){
+//       let preFn1 = fn1
+//       fn1 = fn2;
+//       fn2 = preFn1 + fn2;
+//   }
+//   return fn1;
+// }
