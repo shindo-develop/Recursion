@@ -6,3 +6,13 @@ function factorial(n){
   };
   return total;
 }
+
+// while版
+function factorial(n){
+  let total = 1;
+  while(n > 0){
+      total *= n;
+      n--;
+  };
+  return total;
+}
