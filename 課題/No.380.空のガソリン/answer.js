@@ -1,9 +1,9 @@
 // 車のガソリンが空になるまで何時間かかるか計算す
 class Car {
   constructor(velocity,fuelEconomy,tankCapacity){
-      this.velocity = velocity,
-      this.fuelEconomy = fuelEconomy,
-      this.tankCapacity = tankCapacity
+      this.velocity = velocity;
+      this.fuelEconomy = fuelEconomy;
+      this.tankCapacity = tankCapacity;
   };
   // tankCapacityの走行距離を取得
   getMileage(){

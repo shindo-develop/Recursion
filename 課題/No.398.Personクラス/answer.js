@@ -1,8 +1,8 @@
 class Person{
   // ここからクラス記述してください
   constructor(firstName, lastName){
-     this.firstName = firstName,
-     this.lastName = lastName
+     this.firstName = firstName;
+     this.lastName = lastName;
   };
 
   getFullName(){
