@@ -9,7 +9,7 @@ class InvoiceItem{
   constructor(product, quantity, next){
       this.product = product;
       this.quantity = quantity;
-      this.next = next;
+      this.next = null;
   };
 
   getTotalPrice(){
