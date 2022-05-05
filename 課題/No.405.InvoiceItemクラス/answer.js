@@ -6,7 +6,7 @@ class Product{
 }
 
 class InvoiceItem{
-  constructor(product, quantity, next){
+  constructor(product, quantity){
       this.product = product;
       this.quantity = quantity;
       this.next = null;
